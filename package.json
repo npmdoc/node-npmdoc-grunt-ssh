@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-ssh",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-ssh",
+    "description": "api documentation for [grunt-ssh (v0.12.9)](https://github.com/israelroldan/grunt-ssh) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-ssh.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-ssh)",
     "devDependencies": {
-        "grunt-ssh": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-ssh": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-ssh",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-ssh",
+    "keywords": [
+        "documentation",
+        "grunt-ssh"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_ssh.js",
+    "name": "npmdoc-grunt-ssh",
+    "nameAlias": "npmdoc_grunt_ssh",
+    "nameOriginal": "npmdoc-grunt-ssh",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-ssh"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
