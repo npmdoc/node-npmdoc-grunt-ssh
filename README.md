@@ -1,9 +1,14 @@
-# api documentation for  [grunt-ssh (v0.12.9)](https://github.com/israelroldan/grunt-ssh)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-ssh.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-ssh)
+# npmdoc-grunt-ssh
+
+#### api documentation for  [grunt-ssh (v0.12.9)](https://github.com/israelroldan/grunt-ssh)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-ssh.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-ssh)
+
 #### SSH and SFTP tasks for Grunt
 
-[![NPM](https://nodei.co/npm/grunt-ssh.png?downloads=true)](https://www.npmjs.com/package/grunt-ssh)
+[![NPM](https://nodei.co/npm/grunt-ssh.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-ssh)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-ssh/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-ssh_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-ssh/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-ssh/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-ssh/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-ssh/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-ssh/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-ssh/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Andrew Jones",
-        "email": "andrew@arjones.co.uk",
         "url": "http://andrew-jones.com"
     },
     "bugs": {
@@ -26,156 +30,118 @@
     },
     "contributors": [
         {
-            "name": "Andrew Jones",
-            "email": "andrewjones86@googlemail.com"
+            "name": "Andrew Jones"
         },
         {
-            "name": "Andrew Jones",
-            "email": "andrew@arjones.co.uk"
+            "name": "Andrew Jones"
         },
         {
-            "name": "Charlie Rosenbury",
-            "email": "gmail@rosenbury.com"
+            "name": "Charlie Rosenbury"
         },
         {
-            "name": "Marcin Szczepanski",
-            "email": "marcins@webqem.com"
+            "name": "Marcin Szczepanski"
         },
         {
-            "name": "andrewrjones",
-            "email": "andrewjones86@googlemail.com"
+            "name": "andrewrjones"
         },
         {
-            "name": "David J. Bradshaw",
-            "email": "dave@bradshaw.net"
+            "name": "David J. Bradshaw"
         },
         {
-            "name": "John Wright",
-            "email": "johngeorge.wright@gmail.com"
+            "name": "John Wright"
         },
         {
-            "name": "John Wright",
-            "email": "johnwright@fairfaxmedia.com.au"
+            "name": "John Wright"
         },
         {
-            "name": "MFR",
-            "email": "franc@fg.cz"
+            "name": "MFR"
         },
         {
-            "name": "rysi3k",
-            "email": "rysi3k@gmail.com"
+            "name": "rysi3k"
         },
         {
-            "name": "xescuGC",
-            "email": "xescugil@gmail.com"
+            "name": "xescuGC"
         },
         {
-            "name": "Mark Stosberg",
-            "email": "mark@rideamigos.com"
+            "name": "Mark Stosberg"
         },
         {
-            "name": "Andrew Stewart",
-            "email": "andy@rocketboots.com"
+            "name": "Andrew Stewart"
         },
         {
-            "name": "sheo13666",
-            "email": "sheo13666q@gmail.com"
+            "name": "sheo13666"
         },
         {
-            "name": "Anders Johnson",
-            "email": "adjohnson916@gmail.com"
+            "name": "Anders Johnson"
         },
         {
-            "name": "Robert Price",
-            "email": "robert.price@gmail.com"
+            "name": "Robert Price"
         },
         {
-            "name": "Yannis Sgarra",
-            "email": "yannis.sgarra@gmail.com"
+            "name": "Yannis Sgarra"
         },
         {
-            "name": "fayebear",
-            "email": "lolbummer@gmail.com"
+            "name": "fayebear"
         },
         {
-            "name": "harriha",
-            "email": "harri.halikka@gmail.com"
+            "name": "harriha"
         },
         {
-            "name": "jabes",
-            "email": "bull.justin@gmail.com"
+            "name": "jabes"
         },
         {
-            "name": "owenmead",
-            "email": "owenmead@gmail.com"
+            "name": "owenmead"
         },
         {
-            "name": "Jason Williams",
-            "email": "jaswilli@gmail.com"
+            "name": "Jason Williams"
         },
         {
-            "name": "Alexandre Richonnier",
-            "email": "heralight+github@gmail.com"
+            "name": "Alexandre Richonnier"
         },
         {
-            "name": "Andy Royle",
-            "email": "ajroyle@gmail.com"
+            "name": "Andy Royle"
         },
         {
-            "name": "Andy Shinn",
-            "email": "andys@andyshinn.as"
+            "name": "Andy Shinn"
         },
         {
-            "name": "Bernd Matzner",
-            "email": "bernd@matznermatzner.de"
+            "name": "Bernd Matzner"
         },
         {
-            "name": "Brian White",
-            "email": "mscdex@mscdex.net"
+            "name": "Brian White"
         },
         {
-            "name": "Caleb Tomlinson",
-            "email": "ctomlinson@opentable.com"
+            "name": "Caleb Tomlinson"
         },
         {
-            "name": "Christoph Krautz",
-            "email": "christoph.krautz@comerge.net"
+            "name": "Christoph Krautz"
         },
         {
-            "name": "Evan Stoner",
-            "email": "evan.stoner@gmail.com"
+            "name": "Evan Stoner"
         },
         {
-            "name": "Franco Luciano Aguilera",
-            "email": "flaalf+git@gmail.com"
+            "name": "Franco Luciano Aguilera"
         },
         {
-            "name": "Fredrik Boström",
-            "email": "fredrik@fredrikbostrom.net"
+            "name": "Fredrik Boström"
         },
         {
-            "name": "James Wyse",
-            "email": "james@jameswyse.net"
+            "name": "James Wyse"
         },
         {
-            "name": "Alexander Afanasiev",
-            "email": "afanasieffav@gmail.com"
+            "name": "Alexander Afanasiev"
         },
         {
-            "name": "Justin Kulesza",
-            "email": "justin.kulesza@atomicobject.com"
+            "name": "Justin Kulesza"
         },
         {
-            "name": "Michael Lam",
-            "email": "treadsafely@gmail.com"
+            "name": "Michael Lam"
         },
         {
-            "name": "Niels van Aken",
-            "email": "vanaken@10uur.nl"
+            "name": "Niels van Aken"
         },
         {
-            "name": "Uri Chandler",
-            "email": "uri@kungfoo.bar"
+            "name": "Uri Chandler"
         }
     ],
     "dependencies": {
@@ -218,16 +184,13 @@
     "main": "grunt.js",
     "maintainers": [
         {
-            "name": "andrewrjones",
-            "email": "andrew@andrew-jones.com"
+            "name": "andrewrjones"
         },
         {
-            "name": "chuckmo",
-            "email": "gmail@rosenbury.com"
+            "name": "chuckmo"
         },
         {
-            "name": "israelroldan",
-            "email": "israel@palu.io"
+            "name": "israelroldan"
         }
     ],
     "name": "grunt-ssh",
@@ -235,7 +198,6 @@
     "peerDependencies": {
         "grunt": "~0.4.1"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/israelroldan/grunt-ssh.git"
@@ -246,16 +208,6 @@
     "version": "0.12.9"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-ssh](#apidoc.module.grunt-ssh)
-
-
-
-# <a name="apidoc.module.grunt-ssh"></a>[module grunt-ssh](#apidoc.module.grunt-ssh)
 
 
 
